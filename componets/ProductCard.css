@@ -1,0 +1,8 @@
+.product-card{
+    width: 92vw;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 16px auto;
+    background-color: var(--White);
+
+}

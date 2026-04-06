@@ -2,7 +2,7 @@ import "@/componets/Detalles.css"
 /* crear componente  */
 function Detalles() {
     return (
-        <div>
+        <div className="details">
             <h3 className="categoria">Perfume</h3>
 
             <h2 className="titulo">Gabrielle Essence Eau De Parfum</h2>

@@ -2,12 +2,13 @@
 import Image from 'next/image'
 import Detalles from './Detalles'
 import SeccionPrecios from './SeccionPrecios'
+import '@/componets/ProductCard.css'
 
 import imagen from '@/public/image-product-mobile.jpg'
 
 const ProductCard = () => {
     return (
-        <div>
+        <div className="product-card">
             <Image width={350} src={imagen} alt={'imagen del producto'} />
             <Detalles />
             <SeccionPrecios />

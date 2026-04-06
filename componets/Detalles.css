@@ -1,3 +1,8 @@
+
+.details{
+    margin: 32px 16px 16px 16px;
+}
+
 .categoria {
     font-family: var(--font-monserrat);
     text-transform: uppercase;
@@ -8,7 +13,7 @@
 .titulo {
     font-family: var(--font-fraunces);
     color: var(--Black);
-    font-size: 36px;
+    font-size: 32px;
     margin-top: 0.5rem;
     font-weight: 700;
 }
