@@ -1,0 +1,21 @@
+.categoria {
+    font-family: var(--font-monserrat);
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: var(--Grey);
+}
+
+.titulo {
+    font-family: var(--font-fraunces);
+    color: var(--Black);
+    font-size: 36px;
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+
+.descripcion {
+    font-family: var(--font-fraunces);
+    color: var(--Grey);
+    font-size: 14px;
+    margin-top: 0.5rem;
+}
