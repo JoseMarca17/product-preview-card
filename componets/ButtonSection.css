@@ -1,0 +1,19 @@
+.button-cart{
+    background-color: var(--Green-500);
+    margin: 16px 16px 28px 16px;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px;
+}
+
+.letras-cart{
+    color: var(--White);
+    font-family: var(--font-geist-mono);
+    font-size: 13px;
+    font-weight: 700;
+}

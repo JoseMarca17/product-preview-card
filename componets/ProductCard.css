@@ -1,8 +1,26 @@
 .product-card{
     width: 92vw;
-    border-radius: 20px;
+    border-radius: 12px;
     overflow: hidden;
     margin: 16px auto;
     background-color: var(--White);
 
+}
+
+@media (min-width: 1024px) {
+    .product-card {
+        display: flex;
+        width: 60vw;
+        margin: 128px auto;
+    }
+
+    .image-desktop {
+        width: 750px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .product-card {
+        width: 50vw;
+    }
 }

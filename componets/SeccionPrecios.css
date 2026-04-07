@@ -6,9 +6,10 @@
 }
 
 .precio {
-    font-family: var(--font-fraunces);
+    color: var(--Grey);
+    font-family: var(--font-geist-sans);
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: line-through;
 }
 
